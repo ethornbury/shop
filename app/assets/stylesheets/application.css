@@ -1,0 +1,161 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+.headSec{
+    background: url("/assets/egg-cartons-big.jpg"); 
+    /*background: url("/assets/site/egg-cartons-big.jpg"); if I use a folder in the images folder*/
+    min-height: 350px;
+    max-height: 400px;
+    background-color: #b3e0ff;
+    width: 100%;
+    margin: 10px auto;
+    overflow: auto;
+    
+}
+.headSec p{
+    color: white;
+    font-size: 28px;
+    float: right;
+}
+
+.foot {    
+    min-height: 60px;    
+    background-color: #b3e0ff;    
+    width: 100%;    
+    margin-top: 10px;    
+    overflow: auto; 
+}
+
+.foot p{
+    margin: 15px auto;
+    color: #003d66;
+}
+.container{
+    min-height: 350px;
+    width: 90%;
+}
+
+/* --nav-- */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* --nav-- */
+/*
+.itemholsIm{
+    width: 200px;
+    height: 150px;
+}
+*/
+#itemsContainer {
+    width: 100%;
+    text-align: center;
+}
+#itemsContainer h1 {
+   display: block;
+    color: #005c99;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.itemhols {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    display: inline-block;
+    width: 22%;
+    padding:10px;
+    min-height: 300px;
+  
+}
+.itemhols h3 {
+   display: block;
+    color: #005c99;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px
+}
+.itemhols p {
+   display: block;
+    color: #003d66;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px
+}
+.itemholsIm {
+    width: 80%; 
+    margin-left: auto; 
+    margin-right: auto; 
+    display: block;
+}
+.button {
+    background-color: #b3e0ff;
+    border: none;
+    color: white;
+    padding: 7px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+/* cart css */
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+
+
